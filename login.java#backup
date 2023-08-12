@@ -1,0 +1,25 @@
+
+/**
+ * Write a description of class login here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class login
+{
+   { public void save()
+       input obj=new input();
+    obj.enroll();
+     if(password==Admin123)
+        {System.out.println("SUCCESSFULLY LOGGED IN AS A ADMIN 1");
+         }
+         else if (password== Admin456)
+         {
+             System.out.println("SUCCESSFULLY LOGGED IN AS ADMIN 2");
+            }
+      else 
+         {
+            System.out.println("Invalid password not a admin");
+        }
+    }
+}
